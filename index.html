@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formvalidation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  >
+        
+            <h2>Check credentials</h2>
+<div>
+    <label for="name">Username</label>
+    <input type="text" id="name" aria-describedby="name-formate" required pattern="[A-Za-0-9]+\s[A-Za-'0-9]+">
+</div>
+<br>
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+</div>
+<br>
+<div>
+    <label for="password">password</label>
+    <input type="password" name="password" id="password" pattern="[A-Za-z-0-9]8" placeholder="">
+</div>
+<br>
+<div>
+<label for="password"> confirm password</label>
+<input type="password" name="password" id="password" pattern="[A-Za-z-0-9]8" placeholder="">
+</div>
+<br>
+<div class="submit">
+<a href="landing.html"><input type="submit" value="submit"></a>
+</div>
+<h3>Already have an account? <input type="button" value="login"></h3>
+</fieldset>
+</form>
+</body>
+</html>
